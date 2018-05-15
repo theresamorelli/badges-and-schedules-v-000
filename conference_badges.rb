@@ -19,9 +19,5 @@ def printer(name_array)
   end
   assign_rooms(name_array).each do |message|
     puts message
-  end  
-end
-
-def conference_badges()
-
+  end
 end
