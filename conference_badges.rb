@@ -14,7 +14,8 @@ def assign_rooms(name_array)
 end
 
 def printer(name_array)
-  batch_badge_creator(name_array)
+  batch_badge_creator(name_array).each do |badge|
+    puts badge
 end
 
 def conference_badges()
